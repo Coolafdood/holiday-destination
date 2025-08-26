@@ -1,0 +1,19 @@
+{
+  "name": "holiday-destinations",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000H\u0000o\u0000l\u0000i\u0000d\u0000a\u0000y\u0000D\u0000e\u0000s\u0000t\u0000i\u0000n\u0000a\u0000t\u0000i\u0000o\u0000n\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coolafdood/HolidayDestinations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coolafdood/HolidayDestinations/issues"
+  },
+  "homepage": "https://github.com/Coolafdood/HolidayDestinations#readme"
+}
