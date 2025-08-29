@@ -1,73 +1,29 @@
-/* General body styling */
-body {
-  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Blue gradient */
-  color: #fff;
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Neue', Arial, sans-serif;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
+/* -------------------------------------------
+   File: assets/css/style.css  (create this file)
+----------------------------------------------*/
+/* Center things a bit nicer */
+body { background: #0d1117; color: #e6edf3; }
 
-/* Title styling */
-h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #ffcc00; /* Bright yellow */
-  text-shadow: 2px 2px #cc0000; /* Red outline */
-  letter-spacing: 2px;
-}
+h1 { font-weight: 800; }
 
-/* Pokémon image box */
 #pokemon-image {
-  background: #fff;
-  border-radius: 20px;
-  padding: 15px;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 1rem;
 }
 
-#pokemon-image img {
-  max-width: 250px;
-  transition: filter 0.5s ease-in-out;
-}
+#pokemon-image img { max-height: 260px; transition: filter 300ms ease, transform 300ms ease; }
 
-/* Input styling */
-#pokemon-guess {
-  text-align: center;
-  font-size: 1.2rem;
-  border: 2px solid #ffcc00;
-  border-radius: 10px;
-}
+/* Silhouette effect for "Who\'s That Pokémon?" */
+.silhouette { filter: brightness(0) contrast(100%); transform: scale(0.98); }
 
-/* Buttons */
-button {
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 10px;
-  padding: 10px 20px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
+#pokemon-guess { text-transform: none; }
 
-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
-}
+/* Buttons spacing on small screens */
+.btn { margin-right: 6px; }
 
-/* Result message */
-#result-message {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-/* Scoreboard */
-#scoreboard {
-  background: rgba(0,0,0,0.4);
-  border-radius: 15px;
-  padding: 15px;
-  font-size: 1.1rem;
-}
-
-#scoreboard p {
-  margin: 5px 0;
-}
+/* Result message spacing handled by Bootstrap .alert */
