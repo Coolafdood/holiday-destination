@@ -1,7 +1,3 @@
-// File: assets/js/script.js
-// Pokemon Guess game logic using PokeAPI
-// Works with the provided index.html
-
 (function () {
   const imageEl = document.querySelector('#pokemon-image img');
   const guessInput = document.getElementById('pokemon-guess');
