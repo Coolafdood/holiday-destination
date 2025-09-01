@@ -13,4 +13,7 @@
 11. [Bugs_Fixed](#bugs-fixed)
 12. [User_Cases](#user-cases)
 
+## Introduction
+
+A game linked to pokemon APK esigned to endlessly generate pokemon to be guessed, the high scores adds and when the page is refreshed or new game is click then it will go back to zero.
 
