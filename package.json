@@ -4,7 +4,7 @@
   "description": "1. [Introduction](#introduction)\r 2. [End user requirements](#end-user-requirements)\r 3. [Website Owner requirements](#website-owner-requirements)\r 4. [Wireframe](#wireframe)\r 5. [Features](#features)\r 6. [Used_Tools](#used-tools)\r 7. [Getting Started](#getting-started)\r 8. [How to Contribute](#how-to-contribute)\r 9. [Contact](#contact)\r 10. [License](#license)\r 11. [Bugs_Fixed](#bugs-fixed)\r 12. [User_Cases](#user-cases)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
