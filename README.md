@@ -29,6 +29,22 @@ Open index.html in your browser.
 
 Or host online via GitHub Pages or Netlify.
 
+## UX Design
+### Phone view 
+360px width resoution
+<img width="442" height="758" alt="image" src="https://github.com/user-attachments/assets/43c3c081-80fa-4dec-8b36-f64cc97a6ad1" />
+
+### tablet width resolution
+768px width
+<img width="956" height="752" alt="image" src="https://github.com/user-attachments/assets/ec9e28e9-06c2-418e-a853-08de2c54b5c1" />
+
+### laptop resolution
+breakpoints starting from 1024px width
+<img width="951" height="747" alt="image" src="https://github.com/user-attachments/assets/f9b0eba4-68f7-43f1-b76c-ff5d7c2c3ce9" />
+
+
+
+
 
 
 
