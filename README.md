@@ -1,7 +1,7 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Sources_and_Credits](#sources-and-credits)
+2. [Sources](#sources)
 3. [How_to_run](#how-to-run)
 
 ## introduction
@@ -13,18 +13,12 @@ Players are shown a silhouette of a random Pokémon. They type their guess, subm
 
 
 
-## Sources and Credits
+## Sources
 PokéAPI → https://pokeapi.co/
 
 Bootstrap 5 → https://getbootstrap.com/
 
 Font Awesome → https://fontawesome.com/
-
-Inspired by open-source projects:
-
-guess-the-pokemon by CarolinaAbreu19
-
-who-is-that-pokemon by marinsborg
 
 ## How to Run
 bash
@@ -34,6 +28,7 @@ cd pokemon-guess-game
 Open index.html in your browser.
 
 Or host online via GitHub Pages or Netlify.
+
 
 
 
